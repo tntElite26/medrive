@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "env": {},
+  "env": {
+    "NODE_VERSION": "18.16.0"
+  },
   "build": {
     "env": {
-      "NODE_VERSION": "18.16.0"
+      "NODE_ENV": "production"
+    },
+    "commands": {
+      "build": "yarn build"
     }
   },
   "builds": [
