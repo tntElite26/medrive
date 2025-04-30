@@ -1,6 +1,11 @@
 {
   "version": 2,
   "env": {},
+  "build": {
+    "env": {
+      "NODE_VERSION": "18.16.0"
+    }
+  },
   "builds": [
     {
       "src": "api/dist/index.js",
